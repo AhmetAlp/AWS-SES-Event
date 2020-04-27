@@ -1,4 +1,4 @@
-# AWS-SES-Event
+# AWS-SES-Event Handler
 It can be used to catch AWS Simple Email Service event
 
 This sample can be used as AWS SES Email Receiving AWS Lambda Java function without extra SNS event or SQS.
