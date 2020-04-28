@@ -16,9 +16,7 @@ import java.util.List;
  * @author Ahmet Alp
  */
 public class SESEvent implements Serializable, Cloneable {
-
-	private static final long serialVersionUID = 8086472811955015521L;
-    
+	private static final long serialVersionUID = 8086472811955015521L;   
 	private List<SESRecord> records;
 	
     /**
