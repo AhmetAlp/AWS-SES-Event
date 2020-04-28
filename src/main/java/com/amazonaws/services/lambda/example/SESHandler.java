@@ -70,7 +70,7 @@ public class SESHandler implements RequestHandler<Map<String,Object>, String> {
 			//Work with DynamoDB
 			AmazonDynamoDB ddbClient = AmazonDynamoDBClientBuilder.standard().build();
 			DynamoDB dynamoDB = new DynamoDB(ddbClient);
-			Table table = dynamoDB.getTable("Invoice");
+			Table table = dynamoDB.getTable("ATable");
 			//TODO Insert same data from email for example 
 
 		} catch (IOException e) {
